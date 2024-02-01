@@ -1,0 +1,29 @@
+.foot-item h3{
+    font-size: 15px;
+    text-decoration: none;
+    color: #F6F6F6;
+    padding: 0;
+    margin: 0;
+    padding-inline-start: 5px;
+}
+.foot-item a{
+    text-decoration: none;
+    color: #F6F6F6;
+}
+.foot-item .icons{
+    width: 15px;
+    height: 15px;
+}
+.foot-item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.foot-div{
+    background-color: #061F24;
+}
+
+@media screen and(max-width:600px){
+    
+
+}

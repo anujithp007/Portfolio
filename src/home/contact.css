@@ -1,0 +1,41 @@
+.main-form input{
+    font-size: 18px;
+    line-height: 28px;
+    padding: 15px 20px;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    width: 100%;
+    margin: auto;
+    background-color:  #f6f6f6;
+    margin-top: 1.5rem;
+}
+.name-mail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.msg{
+    min-height: 140px;
+
+}
+.main-contact{
+    width: 100%;
+    
+}
+.main-form{
+    padding-inline: 10%;
+}
+.main-form button{
+    background-color: #025B4D;
+   
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 500;
+    width: 100px;
+    float: right;
+    margin-top: 1em;
+}

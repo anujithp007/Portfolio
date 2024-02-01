@@ -1,0 +1,68 @@
+
+.main-div1{
+    
+    
+
+}
+.main-div1 {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #172c2fa1;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10rem;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+   
+   
+}
+.my-name .my-role{
+    font-size: 100px;
+    line-height: 100px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    color: transparent;
+    background: none;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+.my-name1{
+    font-size: 2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+}
+.my-name button{
+    width: 145px;
+    font-size: 17px;
+}
+.my-name p{
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+.main-div1 img{
+   
+    
+    height:fit-content;
+   
+    width: 100px;
+   
+    width: 600px;
+}
+
+@media screen and (max-width: 800px) {
+    .my-name .my-role {
+      font-size: 70px; /* Adjust font size for larger screens */
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .my-name1 .my-role {
+      font-size: 20px; /* Adjust font size for even larger screens */
+    }
+  }

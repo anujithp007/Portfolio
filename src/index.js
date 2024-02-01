@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navigatiion from './home/Navigatiion';
+import Firstbody from './home/Firstbody';
+
+import App from './App';
+import Navtheme from './home/Navtheme';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navtheme>
+
+    <App/>
+    </Navtheme>
   </React.StrictMode>
 );
 

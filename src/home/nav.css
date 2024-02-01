@@ -1,0 +1,69 @@
+
+.main-nav{
+    
+    height: 110px;
+    position: fixed;
+    width: 100%;
+
+    z-index: 3;
+}
+
+.collapse-color{
+    /* background-color: #025B4D; */
+}
+.main-nav-bg{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #172e31a4;
+}
+.navi-brand{
+    
+font-family: 
+"DM Sans"
+sans-serif;
+font-size: 32px;
+font-weight: 600;
+color: #ffffff;
+
+}
+.collapse.show{
+    padding-top: 36px;
+    text-align: center;
+
+}
+
+   
+
+
+
+
+.nav-button{
+    background-color: #025B4D;
+    padding: 9px 36px;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 500;
+}
+.btn-primary{
+    --bs-btn-hover-bg:#fff
+}
+
+.navi-link{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 
+    "DM Sans"
+    sans-serif;
+    
+}
+
+@media screen and (max-width:900px){
+    .collapse-color{
+        background-color: #025B4D;
+        opacity: 0.5;
+    }
+}
+

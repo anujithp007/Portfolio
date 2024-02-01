@@ -1,0 +1,77 @@
+.skill-img{
+    max-width: 100%;
+    height: 550px;
+    object-fit: contain;
+    padding-top: 50px;
+}
+.progress-bar{
+    background-color: #007E6A;
+    --bs-progress-height: 8px;
+}
+.card-body h3{
+    
+    font-size: 18px;
+    font-family: 'DM sans';
+}
+.skill-item{
+    padding-top: 1rem;
+}
+.my-skill{
+    padding-top: 4rem;font-family: 
+    "DM Sans"
+    sans-serif;
+    color: #707070;
+    font-size: 18px ;
+}
+.card-body p{
+    font-size: 16px;
+    font-family: math;
+}
+.progress{
+    --bs-progress-height:8px
+}
+.card-body h1{
+font-size: 38px;
+font-family: 
+"DM Sans"
+sans-serif !important;
+font-weight: 600;
+}
+.skill2{
+    /* background-color:#F6F6F6; */
+    width: 100%;
+    margin-top: 3rem;
+}
+.card-body3{
+   
+    padding-top: 7rem !important;
+
+}
+.card-body3 svg{
+    color: #007E6A;
+
+}
+.card-body3 h3{
+    font-size: 24px;
+    
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'Rubik ';
+}
+.skill-items{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 6rem;
+
+}
+@media screen and (max-width:500px){
+    .skill-items{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+       
+
+    }
+}

@@ -1,0 +1,79 @@
+.main-fb{
+    padding-top: 160px;
+    width: 100%;
+    height: auto;
+    background-color: #02383f ;
+    background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+.card{
+    background-color: #182e3100;
+    border: none;
+   
+}
+.left-body .my-job{
+    font-size: 80px;
+    line-height: 100px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    color: transparent;
+    background: none;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    
+}
+.my-name{
+    font-size: 29px;
+}
+.left-body p{
+    font-family: 
+    "DM Sans"
+    sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.left-body{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline-start: 20px;
+    
+}
+.left-body button{
+    background-color: #025B4D;
+    padding: 9px 36px;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 500;
+    width: 140px;
+    
+}
+.my-img{
+    height: 100%;
+    object-fit: cover;
+   
+
+}
+.btn-primary:hover{
+    color: black;
+
+}
+/* @media screen and (max-width: 800px){
+    .left-body .my-job{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 400px){
+    .left-body .my-job{
+        font-size: 30px;
+    }
+} */
